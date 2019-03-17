@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Image } from 'react-native';
 
-class Banana extends Component {
+class ProfilePic extends Component {
     render() {
         let pic = {
             uri: this.props.imageURL
@@ -12,4 +12,4 @@ class Banana extends Component {
     }
 }
 
-export default Banana;
+export default ProfilePic;
