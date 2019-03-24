@@ -7,7 +7,7 @@ class ProfilePic extends Component {
             uri: this.props.imageURL
         };
         return (
-            <Image source={pic} style={{ width: 193, height: 110 }} />
+            <Image source={pic} style={{ width: 300, height: 300 }} />
         );
     }
 }
