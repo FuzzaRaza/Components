@@ -15,6 +15,6 @@ import TextHandling from './src/components/TextHandling';
 import FlexboxLayout from './src/components/FLexboxLayout';
 import HeightWidth from './src/components/HeightWidth';
 import Styling from './src/components/Styling';
+import Reactnav from './src/components/Reactnav';
 
-
-AppRegistry.registerComponent(appName, () => Styling);
+AppRegistry.registerComponent(appName, () => ScrollView);
